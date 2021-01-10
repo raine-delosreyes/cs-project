@@ -92,11 +92,6 @@ body {
 }
 
 /*home*/		
-.objectives {
-	text-align: center;
-	margin: 50px;
-}
-		
 @keyframes display {
 	0% {
 		transform: translateX(100px);
@@ -154,23 +149,11 @@ img:nth-child(4) {
 	animation-delay: 6s;
 }
 
-.tiles {
-    float: left;
-    margin: 50px 0px 50px 100px;
-    width: 300px;
-    height: 500px;
+.objectives {
+	text-align: center;
+	margin: 50px;
 }
 
-.tile-sum {
-    text-align: justify;
-    width: 300px;
-}
-
-.title-link {
-	text-decoration: none;
-}
-
-/*about*/
 .intro-img {
 	margin: 50px;
 	float: left;
@@ -193,6 +176,23 @@ img:nth-child(4) {
 	margin-left: 50px;
 	max-width: 100%;
 	text-align: right;
+}		
+
+/*about*/
+.tiles {
+    float: left;
+    margin: 50px 0px 50px 100px;
+    width: 300px;
+    height: 500px;
+}
+
+.tile-sum {
+    text-align: justify;
+    width: 300px;
+}
+
+.title-link {
+	text-decoration: none;
 }
 
 /*tips*/
@@ -228,10 +228,6 @@ th, td {
 
 tr:hover {
 	background-color: #ded0c1;
-}
-
-#glossary:target {
-	background-color: white;
 }
 
 /*references*/
